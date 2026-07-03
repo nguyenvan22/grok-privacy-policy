@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Privacy Policy — Grok Automation</title>
+<style>
+  body { max-width: 720px; margin: 40px auto; padding: 0 20px; font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: #1f2328; }
+  h1 { font-size: 28px; } h2 { font-size: 20px; margin-top: 32px; }
+  code { background: #f0f1f3; padding: 2px 6px; border-radius: 4px; font-size: 14px; }
+  .updated { color: #6b7280; font-size: 14px; }
+</style>
+</head>
+<body>
+  <h1>Privacy Policy — Grok Automation</h1>
+  <p class="updated">Last updated: July 3, 2026</p>
+
+  <p>Grok Automation is a Chrome extension that batch-automates prompt submission and media downloading on Grok Imagine (grok.com). This policy explains what data the extension handles.</p>
+
+  <h2>Data collection: none</h2>
+  <p>Grok Automation does <strong>not</strong> collect, transmit, sell, or share any personal data, browsing data, or usage analytics. There are no external servers, no tracking, no ads, and no accounts.</p>
+
+  <h2>What is stored, and where</h2>
+  <ul>
+    <li><strong>Your settings and prompt list</strong> (image quality, image count, aspect ratio, video style, resolution, delays, retries, the prompts you type) are saved locally in your browser using <code>chrome.storage.local</code> so they persist between sessions. They never leave your device.</li>
+    <li><strong>Generated images and videos</strong> are saved by Chrome's standard download mechanism into your own Downloads folder.</li>
+  </ul>
+
+  <h2>Permissions, in plain language</h2>
+  <ul>
+    <li><code>debugger</code> — used only to type your prompt text into the Grok prompt box and press Enter, because trusted keyboard input is the only way to enter text reliably into Grok's editor. It is attached only to the Grok tab while a batch is running and detached when the batch stops. It is never used to read pages, alter other tabs, or capture data.</li>
+    <li><code>host access to grok.com</code> — the extension operates only on Grok pages. It does not read or modify any other website.</li>
+    <li><code>downloads</code> — saves each generated image/video into a subfolder of your Downloads folder with an ordered filename.</li>
+    <li><code>storage</code> — saves your settings and prompts locally.</li>
+    <li><code>scripting</code> — re-injects the extension's own content script into the Grok tab if the page was loaded before the extension.</li>
+    <li><code>sidePanel</code> — shows the extension's control panel in Chrome's side panel.</li>
+  </ul>
+
+  <h2>Third parties</h2>
+  <p>The extension communicates with no third-party services. The only site it interacts with is Grok (grok.com), in your own logged-in browser session, performing the same actions you would perform by hand.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the updated version will be posted at this same URL with a new "Last updated" date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:nvandai746@gmail.com">nvandai746@gmail.com</a></p>
+
+  <p class="updated">Grok Automation is an unofficial tool and is not affiliated with, endorsed by, or sponsored by xAI. "Grok" and "Grok Imagine" are trademarks of xAI Corp, referenced only to describe compatibility.</p>
+</body>
+</html>
